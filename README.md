@@ -1,2 +1,3 @@
 # pomodoro-chrome-extension
-Pomodoro timer chrome extension to improve your productivity
+Pomodoro timer to experiment with chrome api
+
