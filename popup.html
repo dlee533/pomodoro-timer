@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style media="screen">
+      label {
+        text-align: left;
+        clear: both;
+        float: left;
+        margin-right: 5px;
+        width: 40%
+      }
+      input {
+        float: left;
+        width: 30%;
+        margin: 2px;
+      }
+      #start {
+        width: 40%;
+      }
+      body {
+        width: 150px;
+        height: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="state">Pomodoro</h1>
+    <img id="someImage"/>
+    <form class="setup">
+      <label for="work">Work:</label>
+      <input type="number" name="work" id="work" min=0 max=60>
+      <p> min</p>
+      <label for="srest">Short Rest:</label>
+      <input type="number" name="srest" id="srest" min=0 max=15>
+      <p> min</p>
+      <label for="lrest">Long Rest:</label>
+      <input type="number" name="lrest" id="lrest" min=0 max=60>
+      <p> min</p>
+      <label for="cycle">Cycle:</label>
+      <input type="number" name="cycle" id="cycle" min=1 max=10>
+      <input type="button" value="Start" id="button">
+    </form>
+    <script src="popup.js"></script>
+
+  </body>
+</html>

@@ -1,2 +1,2 @@
 # pomodoro-chrome-extension
-Pomodoro timer chrome extension to improve your productivity
+mini project to play with chrome extensions api

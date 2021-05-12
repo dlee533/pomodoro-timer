@@ -1,0 +1,15 @@
+{
+  "name": "Pomodoro Timer",
+  "description": "Pomodoro Timer to improve your productivity",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "alarms", "storage", "background", "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
